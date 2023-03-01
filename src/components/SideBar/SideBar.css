@@ -1,0 +1,30 @@
+.sidebar_container {
+}
+.sib_t {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sidebar_container span {
+  background-color: black;
+  color: white;
+  padding: 0.6rem 3.5rem 0.6rem 0.5rem;
+}
+.sib_b p {
+  margin: 0;
+  user-select: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.sib_b p:hover,
+.activetype {
+  font-weight: bold;
+  color: blueviolet;
+  transform: translateX(20px);
+}
+.activetype {
+  border-radius: 1rem;
+  background-color: rgba(80, 226, 43, 0.688);
+  color: white;
+}

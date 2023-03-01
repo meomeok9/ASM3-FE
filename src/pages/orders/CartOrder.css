@@ -1,0 +1,24 @@
+.order_container {
+  display: flex;
+  margin-left: 1px;
+  margin-top: 1px;
+  padding: 0.1rem 0.2rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.head_order {
+  background-color: aqua;
+  user-select: none;
+}
+.head_order p {
+  color: rgb(160, 17, 17);
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+}
+.detail_order {
+  background-color: darkgray;
+  overflow-wrap: anywhere;
+}

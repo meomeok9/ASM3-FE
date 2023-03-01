@@ -1,0 +1,17 @@
+.footercol {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  font-size: 0.6rem;
+}
+
+.footer_a {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+  transition: all 0.2s ease-in-out;
+}
+.footer_a:hover {
+  transform: scale(1.3);
+}

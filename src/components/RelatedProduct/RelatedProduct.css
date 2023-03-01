@@ -1,0 +1,27 @@
+.related_products {
+  background-color: white;
+  margin: 0 5rem;
+}
+.related_products h3 {
+  margin-top: 0;
+}
+.related_img {
+  height: 160px;
+}
+.related_product_img_container {
+  display: flex;
+  margin-left: 1rem;
+}
+.related_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 10rem;
+  overflow: hidden;
+  margin-left: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.related_item:hover {
+  transform: scale(1.05);
+}

@@ -1,0 +1,24 @@
+.detailimg_container {
+  display: flex;
+  flex-direction: row;
+  width: 23rem;
+  background-color: white;
+}
+
+.sm-left {
+  width: 20%;
+}
+.sm-left img {
+  height: 70px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.sm-left img:hover {
+  transform: scale(1.2);
+}
+.lg-right {
+  width: 80%;
+}
+.lg-right img {
+  height: 220px;
+}

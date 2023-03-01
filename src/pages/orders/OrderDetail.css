@@ -1,0 +1,35 @@
+.margin_left {
+  margin-left: 5rem;
+}
+.order_detail_table {
+  margin: 0 5rem;
+  background-color: white;
+  padding: 0.2rem;
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+.order_title {
+  display: flex;
+  margin-left: 3rem;
+  width: 80%;
+}
+.h5_14 {
+  width: 18%;
+  text-align: center;
+  overflow-wrap: anywhere;
+  padding: 0.5rem 0.2rem;
+  background-color: blueviolet;
+  margin: 0 0 0 1px;
+  color: white;
+  font-size: 20px;
+}
+.longger_h5 {
+  font-size: 20px;
+  width: 20%;
+  text-align: center;
+  padding: 0.5rem 0.2rem;
+  background-color: blueviolet;
+  margin: 0 0 0 1px;
+  color: white;
+}

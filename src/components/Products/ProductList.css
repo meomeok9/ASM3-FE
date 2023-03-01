@@ -1,0 +1,32 @@
+.productlist_container {
+  position: relative;
+  bottom: 10rem;
+}
+.productlist_head {
+  margin: 0 5rem;
+  padding: 1rem;
+  background-color: white;
+}
+.productlist_head p {
+  opacity: 0.7;
+  margin-bottom: 0;
+  font-size: 13px;
+}
+.productlist_head h4 {
+  margin-top: 0;
+}
+.productlist_services {
+  display: flex;
+  flex-direction: row;
+  margin: 0 5rem;
+  padding: 0 5rem;
+  background-color: white;
+}
+.productlist_services p {
+  margin-top: 0;
+  font-size: 11px;
+  opacity: 0.8;
+}
+.productlist_services h4 {
+  margin-bottom: 0.5rem;
+}

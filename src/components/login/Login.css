@@ -1,0 +1,57 @@
+.login_container {
+  background-image: url("../../../img/banner1.jpg");
+  background-repeat: no-repeat;
+  background-size: 140%;
+  background-position: center;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  height: 100vh;
+}
+.login_frm {
+  position: relative;
+  width: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.login_frm_input {
+  height: 2rem;
+  border: none;
+  margin: 1rem;
+  width: 90%;
+  background: rgba(0, 0, 0, 0.1);
+}
+.login_frm input:focus {
+  outline: none;
+}
+.login_frm button {
+  height: 3rem;
+  margin: 1rem 0;
+  background-color: rgb(56, 56, 56);
+  color: white;
+  width: 100%;
+  cursor: pointer;
+  border: none;
+}
+.login_frm button:disabled {
+    background-color: rgb(89, 89, 89);
+    color: rgb(29, 29, 29);
+    border-color: #ccc;
+    cursor: not-allowed;
+  }
+
+.login_frm button:hover {
+  background-color: rgb(79, 79, 79);
+}
+.login_frm h1 {
+  opacity: 0.5;
+}
+.login_invalid {
+  border: 1px solid #b40e0e;
+  background-color: #fddddd;
+}

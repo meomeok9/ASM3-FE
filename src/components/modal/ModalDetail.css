@@ -1,0 +1,72 @@
+.modaldetail_container {
+  position: fixed;
+  width: 70%;
+  height: 80%;
+  
+  top: 5rem;
+  left: 9rem;
+  font-size: small;
+  /* right: 0;
+  bottom: 0; */
+  background-color: white;
+  z-index: 3;
+}
+.modaldetail_detail {
+  display: flex;
+}
+.modaldetail_img {
+  padding: 1rem;
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.modaldetail_img img {
+  width: 20rem;
+}
+/* .modaldetail_img img:hover{
+    transform: scale3d(1.2,1.2,1.2);
+} */
+.modaldetail_info {
+  width: 50%;
+}
+.modaldetail_info button {
+  height: 2rem;
+  border-radius: 3px;
+  background-color: rgb(74, 74, 74);
+  color: white;
+  padding: 0 2rem;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+.modaldetail_info button:hover {
+  background-color: rgb(226, 43, 192);
+  transform: scale(1.03);
+}
+.on {
+  display: block;
+}
+.off {
+  display: none;
+}
+.modaldetail_close {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.modaldetail_close span {
+  padding: 0 0.2rem;
+  cursor: pointer;
+  font-weight: bolder;
+  border: solid 1px black;
+  border-radius: 10px;
+  background-color: rgba(224, 71, 191, 0.547);
+  transition: all 0.2s ease-in-out;
+  user-select: none;
+}
+.modaldetail_close span:hover {
+  transform: scale(1.2);
+  color: white;
+}

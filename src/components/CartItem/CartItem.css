@@ -1,0 +1,30 @@
+.cartitem_container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.cart_im_img {
+  height: 4rem;
+  width: 14%;
+}
+.cartitem_container_p {
+  text-align: center;
+  width: 14%;
+  font-size: 12px;
+}
+.cartitem_name {
+  width: 30%;
+}
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+.unselected {
+  user-select: none;
+  cursor: pointer;
+  padding: 0;
+}
+.unselected:focus {
+  animation: click;
+  animation-duration: 0.2s;
+}

@@ -1,0 +1,14 @@
+.chatbutton {
+  height: 5rem;
+  width: 5rem;
+  background-color: rgba(255, 0, 128, 0);
+  border-radius: 50%;
+  position: fixed;
+  left: 70rem;
+  top: 33rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.chatbutton:hover {
+  transform: scale(1.1);
+}

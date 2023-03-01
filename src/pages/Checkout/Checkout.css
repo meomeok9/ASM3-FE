@@ -1,0 +1,43 @@
+.chkout_container {
+  margin: 0 5rem;
+  padding: 1rem;
+  background-color: white;
+  display: flex;
+}
+.chkout_left {
+  width: 65%;
+}
+.chkout_btn {
+  background-color: rgb(84, 84, 84);
+  border: none;
+  border-radius: 2px;
+  height: 2rem;
+  margin: 2rem 0;
+  color: white;
+  cursor: pointer;
+}
+.chkout_btn:active {
+  animation: click;
+  animation-duration: 0.2s;
+}
+.chkout_btn:disabled {
+  cursor: not-allowed;
+  animation: none;
+  background-color: rgba(255, 0, 0, 0.493);
+}
+.chkout_right {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.chkout_nav button {
+  border: none;
+  user-select: none;
+  cursor: pointer;
+}
+.chkout_subtotal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

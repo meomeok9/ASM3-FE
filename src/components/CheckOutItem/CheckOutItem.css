@@ -1,0 +1,9 @@
+.chkoutitem{
+    display: flex;
+    align-items: center;
+
+}
+.chkoutitem p{
+    opacity: 0.7;
+    font-size: 13px;
+}

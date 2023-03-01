@@ -1,0 +1,84 @@
+.chat_container {
+  height: 30rem;
+  width: 30rem;
+  background: rgb(255, 224, 0);
+  background: linear-gradient(
+    45deg,
+    rgba(255, 224, 0, 1) 0%,
+    rgba(223, 3, 137, 1) 50%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: white;
+  border-radius: 2rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  padding: 0.5rem;
+
+  position: absolute;
+  left: 30rem;
+  z-index: 10;
+  bottom: 2rem;
+}
+.chat_container:active {
+  cursor: grab;
+}
+
+.chat_box_container {
+  height: 20rem;
+  width: 20rem;
+  background: white;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+.chat_input_container {
+  display: flex;
+  padding: 0.5rem;
+}
+.chat_input_container button {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  cursor: pointer;
+}
+.chat_input_container input {
+  width: 62%;
+  
+}
+.chat_input_container input:focus {
+  outline: none;
+}
+.chattext_style {
+  color: blueviolet;
+  border-radius: 5px;
+  margin: 1px;
+  width: fit-content;
+}
+.user_text{
+  background-color: aqua;
+}
+.reply_text{
+  background-color: lightpink;
+}
+.row_chat {
+  display: flex;
+  margin: 0 1rem;
+}
+.user_chat {
+  justify-content: flex-start;
+}
+.reply {
+  color: white;
+  justify-content: flex-end;
+}
+
+.on {
+  display: block;
+}
+.off {
+  display: none;
+}
+.chat_container {
+  user-select: none;
+}

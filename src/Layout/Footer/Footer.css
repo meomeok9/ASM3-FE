@@ -1,0 +1,11 @@
+.layout_footer {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  color: white;
+  padding: 3rem 0;
+  margin-top: 10rem;
+}
+.layout_col {
+  width: 25%;
+}

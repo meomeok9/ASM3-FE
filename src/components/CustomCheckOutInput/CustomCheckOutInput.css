@@ -1,0 +1,7 @@
+.customchckout_input {
+  height: 2rem;
+  width: 90%;
+}
+.customchckout_input:focus {
+  outline: none;
+}

@@ -1,0 +1,108 @@
+.layout_header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 5rem;
+  padding: 0 1rem;
+  background-color: white;
+}
+.layout_header div h2 {
+  user-select: none;
+}
+.layout_header div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.layout_button {
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  user-select: none;
+  transition: all 0.3s ease-in-out;
+}
+.layout_button:hover {
+  background-color: blueviolet;
+  color: white;
+  transform: scale(1.1);
+}
+/* .active {
+  color: blueviolet;
+} */
+
+.BOUTIQUE {
+  font-size: x-large;
+  font-weight: 400;
+}
+
+.active {
+  color: blueviolet;
+  animation-name: ani;
+  animation-duration: 0.4s;
+}
+@keyframes ani {
+  0% {
+    transform: scale(1);
+  }
+  5% {
+    transform: scale(0.8, 1);
+  }
+  10% {
+    transform: scale(0.6, 1);
+  }
+  15% {
+    transform: scale(0.4, 1);
+  }
+  20% {
+    transform: scale(0.2, 1);
+  }
+  25% {
+    transform: scale(0, 1);
+  }
+  30% {
+    transform: scale(-0.2, 1);
+  }
+  35% {
+    transform: scale(-0.4, 1);
+  }
+  40% {
+    transform: scale(-0.6, 1);
+  }
+  45% {
+    transform: scale(-0.8, 1);
+  }
+  50% {
+    transform: scale(-1, 1);
+  }
+  55% {
+    transform: scale(-0.8, 1);
+  }
+  60% {
+    transform: scale(-0.6, 1);
+  }
+  65% {
+    transform: scale(-0.4, 1);
+  }
+  70% {
+    transform: scale(-0.2, 1);
+  }
+  75% {
+    transform: scale(0, 1);
+  }
+  80% {
+    transform: scale(0.2, 1);
+  }
+  85% {
+    transform: scale(0.4, 1);
+  }
+  90% {
+    transform: scale(0.6, 1);
+  }
+  95% {
+    transform: scale(0.8, 1);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}

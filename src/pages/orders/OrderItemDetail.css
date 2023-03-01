@@ -1,0 +1,10 @@
+.order_items_detail {
+  display: flex;
+  margin-left: 3rem;
+  width: 80%;
+}
+.margin_left {
+  padding: 0.5rem 0.2rem;
+  width: 18%;
+  margin-left: 1px;
+}
