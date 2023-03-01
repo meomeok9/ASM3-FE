@@ -74,7 +74,11 @@ const useFetch = () => {
         if (getStatus) getStatus(res.status);
         if (getResponse) getResponse(res.data.message);
         if (getData) getData(res.data.results);
-      } catch (err) {}
+      } catch (err) {
+        if (err.response.status === 400) {
+          alert(err.response.data.message);
+        }
+      }
     },
     []
   );

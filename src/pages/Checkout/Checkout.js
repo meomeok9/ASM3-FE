@@ -55,23 +55,16 @@ const CheckOut = () => {
       state: "Waiting for Pay",
     };
 
-    try {
-      const getRes = (res) => {
-        alert(res);
-      };
-      const getStatus = (status) => {
-        if (status === 200) {
-          dispatch(cartActions.removeCart());
-          navigate("/order");
-        } else {
-          throw new Error("some thing wrong!");
-        }
-      };
-      sendPostRequest("/checkOut", req, getRes, () => {}, getStatus);
-    } catch (err) {
-      console.log({ err });
-      alert(err.response);
-    }
+    const getRes = (res) => {
+      alert(res);
+    };
+    const getStatus = (status) => {
+      if (status === 200) {
+        dispatch(cartActions.removeCart());
+        navigate("/order");
+      }
+    };
+    sendPostRequest("/checkOut", req, getRes, () => {}, getStatus);
   };
 
   const nameChangeHandler = (name) => {
