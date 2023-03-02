@@ -8,7 +8,9 @@ import "./Chat.css";
 import { useNavigate } from "react-router-dom";
 
 const Chat = () => {
-  const socket = io("localhost:5000", { transports: ["websocket"] });
+  const socket = io("https://asm3be17428.onrender.com", {
+    transports: ["websocket"],
+  });
   const userId = useSelector((state) => state.login.userId);
   const isLogin = useSelector((state) => state.login.isLogin);
   const navigate = useNavigate();

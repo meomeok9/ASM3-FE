@@ -5,7 +5,7 @@ import axios from "axios";
 
 const useFetch = () => {
   const dispatch = useDispatch();
-  const url = "http://localhost:5000";
+  const url = "https://asm3be17428.onrender.com";
 
   const sendRequest = useCallback(async (page) => {
     try {
